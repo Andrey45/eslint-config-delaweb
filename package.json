@@ -1,0 +1,44 @@
+{
+  "name": "eslint-config-delaweb",
+  "version": "1.0.0",
+  "description": "ESLint settings for react projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrey45/eslint-config-delaweb.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "eslintconfig"
+  ],
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-plugin-react": "7.24.0",
+    "eslint-plugin-import": "2.24.2",
+    "eslint-plugin-sonarjs": "0.10.0",
+    "eslint-plugin-no-loops": "0.3.0",
+    "eslint-plugin-promise": "5.1.0",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "eslint-webpack-plugin": "3.0.1",
+    "eslint-plugin-jest": "24.4.0",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-config-react-app": "6.0.0"
+  },
+  "author": {
+    "name": "Andrey Kobets",
+    "url": "https://github.com/Andrey45"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Andrey45/eslint-config-delaweb/issues"
+  },
+  "homepage": "https://github.com/Andrey45/eslint-config-delaweb#readme"
+}
