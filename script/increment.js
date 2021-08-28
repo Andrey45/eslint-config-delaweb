@@ -29,7 +29,6 @@ if(argv.length <= 2 || incrementType[argv[2]] === undefined) {
     console.error('Not type increment')
 } else {
     useIncrement(argv[2]);
-    shell.exec(`git commit -m "version ${targetVersion} has been upgraded to ${newVersion}"`);
-    shell.exec(`git push`);
-    shell.exec('npm publish');
+    const commit = `git add . && git commit -m "version ${targetVersion} has been upgraded to ${newVersion}"`
+    shell.exec(commit.toString());
 }
