@@ -31,4 +31,6 @@ if(argv.length <= 2 || incrementType[argv[2]] === undefined) {
     useIncrement(argv[2]);
     const commit = `git add . && git commit -m "version ${targetVersion} has been upgraded to ${newVersion}"`
     shell.exec(commit.toString());
+    shell.exec('git push');
+    shell.exec('npm publish')
 }
