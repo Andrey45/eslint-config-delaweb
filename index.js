@@ -5,6 +5,7 @@ module.exports = {
             node: {
                 extensions: ['.js', '.jsx', '.json', '.ts', '.tsx', '.d.ts'],
             },
+            typescript: {}
         },
     },
     rules: {
