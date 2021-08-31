@@ -1,6 +1,6 @@
-import { readFileSync, writeFileSync } from 'fs';
-import shell from 'shelljs';
-import { argv } from 'process';
+const { readFileSync, writeFileSync } = require('fs');
+const shell = require('shelljs');
+const { argv } = require('process');
 
 let targetVersion = '';
 let newVersion = ''
