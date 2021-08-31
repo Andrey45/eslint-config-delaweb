@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-delaweb",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "ESLint settings for react projects",
   "main": "index.js",
   "type": "commonjs",
