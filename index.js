@@ -1,5 +1,5 @@
 module.exports = {
-    extends: ['./lib/shared'].map(require.resolve),
+    extends: import('./lib/shared'),
     settings: {
         'import/resolver': {
             node: {
