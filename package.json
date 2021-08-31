@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-delaweb",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "ESLint settings for react projects",
   "main": "index.js",
   "type": "commonjs",
@@ -30,7 +30,8 @@
     "eslint-plugin-sonarjs": "^0.10.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "eslint-config-airbnb-typescript": "^14.0.0"
+    "eslint-config-airbnb-typescript": "^14.0.0",
+    "eslint-config-airbnb-base": "^14.2.1"
   },
   "devDependencies": {
     "process": "^0.11.10",
