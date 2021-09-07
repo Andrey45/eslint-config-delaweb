@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-delaweb",
-  "version": "1.8.0",
+  "version": "2.0.0",
   "description": "ESLint settings for react projects",
   "main": "index.js",
   "type": "commonjs",
@@ -19,7 +19,12 @@
     "config",
     "eslintconfig",
     "prettier",
-    "delaweb"
+    "delaweb",
+    "sonarjs",
+    "eslint-plugin",
+    "eslint-config",
+    "typescript",
+    "react"
   ],
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.29.3",
